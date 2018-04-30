@@ -1,0 +1,16 @@
+@import './header'; 
+body {
+
+    .container {
+        color: #FFF;
+
+        &.blue {
+            color: #0000FF;
+
+        }
+        p {
+            background:#000;
+            display: inline-block;
+        }
+    }
+}
